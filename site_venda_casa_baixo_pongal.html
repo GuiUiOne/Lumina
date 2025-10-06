@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Casa à Venda em Baixo Pongal — R$90.000</title>
+  <meta name="description" content="Casa à venda em Baixo Pongal — preço R$90.000. Em construção, materiais já no local. Contato: Guilherme Traspadini." />
+  <meta name="author" content="Guilherme Traspadini" />
+  <style>
+    :root{--accent:#0b83f6;--muted:#6b7280;--card:#ffffff}
+    *{box-sizing:border-box}
+    body{font-family:Inter,system-ui,Roboto,Arial,sans-serif;margin:0;background:#f5f7fb;color:#111}
+    header{background:linear-gradient(90deg,#0b83f6 0%,#0ba6d8 100%);color:#fff;padding:28px 20px}
+    .container{max-width:1100px;margin:0 auto;padding:24px}
+    .grid{display:grid;gap:20px}
+    .hero{display:flex;flex-wrap:wrap;align-items:center;gap:20px}
+    .hero .info{flex:1;min-width:260px}
+    .price{font-size:28px;font-weight:700;margin:6px 0}
+    .badge{display:inline-block;background:rgba(255,255,255,0.12);padding:6px 10px;border-radius:999px;font-weight:600}
+    .gallery{display:flex;gap:10px;flex-wrap:wrap}
+    .gallery img{width:100%;height:220px;object-fit:cover;border-radius:8px;box-shadow:0 6px 18px rgba(16,24,40,0.08)}
+    .card{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 6px 20px rgba(16,24,40,0.06)}
+    .features{display:flex;gap:12px;flex-wrap:wrap}
+    .feature{flex:1;min-width:160px;padding:12px;border-radius:10px;background:#f8fafc;border:1px solid #eef2f7}
+    .cta{display:flex;gap:12px;align-items:center}
+    .btn{background:var(--accent);color:#fff;padding:12px 16px;border-radius:10px;border:0;font-weight:700;cursor:pointer}
+    .btn.ghost{background:transparent;color:#0b83f6;border:2px solid rgba(11,131,246,0.12)}
+    form input,form textarea{width:100%;padding:10px;margin-top:8px;border-radius:8px;border:1px solid #e6eef8}
+    footer{padding:20px;text-align:center;color:var(--muted);font-size:14px}
+    @media(min-width:900px){.hero{flex-wrap:nowrap}.gallery img{height:320px}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
+        <div>
+          <h1 style="margin:0;font-size:20px">Casa à venda — Baixo Pongal</h1>
+          <div style="color:rgba(255,255,255,0.9);margin-top:6px">R$90.000 — Em construção (materiais disponíveis no local)</div>
+        </div>
+        <div style="text-align:right">
+          <div class="badge">Vendedor: Guilherme Traspadini</div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container" style="margin-top:18px">
+    <section class="hero grid" style="grid-template-columns:1fr 420px">
+      <div class="info card">
+        <h2>Resumo rápido</h2>
+        <p style="color:var(--muted)">Excelente oportunidade em Baixo Pongal — casa em construção, terreno amplo, e materiais já disponíveis para acelerar a finalização. Ótima para quem quer economizar na construção e personalizar os acabamentos.</p>
+        <div class="price">R$90.000</div>
+        <div style="margin-top:10px" class="features">
+          <div class="feature"><strong>Status</strong><div style="color:var(--muted)">Em construção</div></div>
+          <div class="feature"><strong>Local</strong><div style="color:var(--muted)">Baixo Pongal</div></div>
+          <div class="feature"><strong>Materiais</strong><div style="color:var(--muted)">Alguns materiais já no local</div></div>
+        </div>
+
+        <h3 style="margin-top:18px">Destaques</h3>
+        <ul style="color:var(--muted);margin-top:8px">
+          <li>Terreno com fácil acesso</li>
+          <li>Possibilidade de finalizar do seu jeito</li>
+          <li>Preço abaixo do mercado para venda rápida</li>
+        </ul>
+
+        <div style="margin-top:14px" class="cta">
+          <button class="btn" onclick="openContact()">Quero comprar / Mais infos</button>
+          <a class="btn ghost" href="mailto:lustraspadini16@gmail.com?subject=Interesse%20na%20casa%20em%20Baixo%20Pongal">Enviar email</a>
+        </div>
+      </div>
+
+      <aside>
+        <div class="card">
+          <h3>Contato rápido</h3>
+          <p style="color:var(--muted);margin:6px 0">Fale direto com o anunciante:</p>
+          <p style="margin:6px 0"><strong>Guilherme Traspadini</strong></p>
+          <p style="margin:6px 0">Telefone / WhatsApp: <em>+55 27 99750-4133</em></p>
+          <div style="display:flex;gap:8px;margin-top:8px">
+            <a class="btn" href="#contact">Enviar mensagem</a>
+            <a class="btn ghost" href="https://wa.me/5527997504133" target="_blank">Abrir WhatsApp</a>
+          </div>
+        </div>
+
+        <div style="margin-top:14px" class="card">
+          <h4>Agende visita</h4>
+          <p style="color:var(--muted)">Preencha o formulário para agendar uma visita ao local.</p>
+          <a class="btn" href="#contact">Agendar visita</a>
+        </div>
+      </aside>
+    </section>
+
+    <section style="margin-top:20px" class="card">
+      <h3>Galeria (substitua pelas fotos reais)</h3>
+      <div class="gallery" style="grid-template-columns:repeat(3,1fr);">
+        <img src="https://via.placeholder.com/800x600?text=Frente+da+Casa" alt="Frente da casa">
+        <img src="https://via.placeholder.com/800x600?text=Terreno" alt="Terreno">
+        <img src="https://via.placeholder.com/800x600?text=Materiais+no+local" alt="Materiais">
+      </div>
+    </section>
+
+    <section style="margin-top:20px" class="card">
+      <h3>Descrição completa</h3>
+      <p style="color:var(--muted)">Imóvel localizado em Baixo Pongal. A construção está em andamento, com materiais já disponíveis no local — ideal para comprador que deseja economizar na mão de obra ou concluir com acabamento personalizado. Documentação disponível mediante contato. Valor pedido: R$90.000.</p>
+
+      <h4 style="margin-top:14px">O que incluir na visita</h4>
+      <ul style="color:var(--muted)">
+        <li>Verificação do terreno e posição solar</li>
+        <li>Conferência dos materiais já no local</li>
+        <li>Informações sobre documentação e possíveis taxas</li>
+      </ul>
+    </section>
+
+    <section id="contact" style="margin-top:20px" class="card">
+      <h3>Formulário de contato</h3>
+      <p style="color:var(--muted)">Preencha e clique em "Enviar" — os dados irão abrir seu email com a mensagem já preenchida.</p>
+      <form id="contactForm" onsubmit="handleSubmit(event)">
+        <label>Nome</label>
+        <input type="text" id="name" required placeholder="Seu nome" />
+        <label>Telefone / WhatsApp</label>
+        <input type="text" id="phone" placeholder="(xx) xxxxx-xxxx" />
+        <label>Mensagem</label>
+        <textarea id="message" rows="4" placeholder="Quero mais informações sobre a casa em Baixo Pongal"></textarea>
+        <div style="margin-top:10px;display:flex;gap:8px">
+          <button class="btn" type="submit">Enviar</button>
+          <button class="btn ghost" type="button" onclick="fillSample()">Preencher exemplo</button>
+        </div>
+      </form>
+    </section>
+
+    <section style="margin-top:20px" class="card">
+      <h3>Documentos e informações úteis</h3>
+      <p style="color:var(--muted);margin-top:8px">Sugestões para organizar antes de contato com comprador:</p>
+      <ul style="color:var(--muted)">
+        <li>Planta do imóvel (se houver)</li>
+        <li>Comprovante de propriedade / matrícula</li>
+        <li>Lista dos materiais disponíveis no local</li>
+        <li>Fotos atuais em boa resolução</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">Criado por ChatGPT para <strong>Guilherme Traspadini</strong> — personalize contatos e fotos antes de publicar.</div>
+  </footer>
+
+  <script>
+    function handleSubmit(e){
+      e.preventDefault();
+      const name = document.getElementById('name').value || 'Interessado';
+      const phone = document.getElementById('phone').value || 'não informado';
+      const message = encodeURIComponent(document.getElementById('message').value || 'Olá, tenho interesse na casa em Baixo Pongal.');
+      const subject = encodeURIComponent('Interesse na casa em Baixo Pongal - R$90.000');
+      const to = 'lustraspadini16@gmail.com';
+      const body = encodeURIComponent('Nome: ' + name + '\nTelefone: ' + phone + '\n\nMensagem:\n') + message;
+      window.location.href = `mailto:${to}?subject=${subject}&body=${body}`;
+    }
+    function fillSample(){
+      document.getElementById('name').value = 'João Silva';
+      document.getElementById('phone').value = '(11) 98765-4321';
+      document.getElementById('message').value = 'Olá, quero agendar visita e saber se a documentação está em ordem.';
+    }
+    function openContact(){
+      location.href = '#contact';
+      document.getElementById('name').focus();
+    }
+  </script>
+</body>
+</html>
